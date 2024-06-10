@@ -1,137 +1,80 @@
 /*
- ? Виведи на екран загальну кількість яблук та винограду. Різницю яблук та винограду.
+ Print the total number of apples and grapes. The difference between apples and grapes.
  */
 
 // const apples = 47;
 // const grapes = 135;
 
-// const total = apples + grapes;
-
-// console.log(total);
-
-// const diff = apples - grapes;
-
-// console.log(diff);
-
 /*
- ? Заміни вираз перевизначення комбінованим оператором
+ ? Replace the override expression with a combination operator
  */
 
-//* Без комбінованого оператора
+//* Without the combined operator
 // let students = 100;
 
 // students = students + 50;
 
 // console.log(students);
 
-//* З комбінованим оператором
-// let students = 100;
+//* With the combined operator
 
-// students += 50;
-
-// console.log('Students:', students);
-
-
-//? Обʼєднайте два рядки в один і виведіть до консолі.
+//? Combine two lines into one and output to the console.
 
 // const firstName = 'Chelsy';
 // const lastName = 'Emerald';
 
-// const fullName = firstName + ' ' + lastName;
-
-// console.log(fullName);
-
-//? Підставте значення зміної quantity до рядка orderMsg, використоуючи шаблоні рядки.
+//? Insert the value of the quantity variable into the orderMsg string using string templates.
 
 // const quantity = '15';
-// const orderMsg = `Quantity is: ${quantity}`;
-
-// console.log(orderMsg);
 
 /*
-  ? Запросіть у користувача ім'я та прізвище і виведіть у консоль повідомлення:
-  ? Hello <імʼя> <прізвище>, you are logged in.
+  ? Request the user's first and last name and display a message in the console:
+  ? Hello <name> <surname>, you are logged in.
 */
 
-// const firstName = prompt('Your first name?');
-// const lastName = prompt('Your last name?');
-
-// const message = `Hello ${firstName} ${lastName}, you are logged in.`;
-
-// console.log(message);
-
-//? Дізнайтесь довжину рядка message. Виведіть перший та останій символ рядка message.
+//? Find out the length of the message string. Print the first and last characters of the message string.
 
 // let message = 'This string is 28 chars long';
 
-// const messageLength = message.length;
-// const firstCharOfMessage = message[0];
-// const lastCharOfMessage = message[message.length - 1];
-
-// console.log(message);
-// console.log(messageLength);
-// console.log(firstCharOfMessage);
-// console.log(lastCharOfMessage);
-
-
 /* 
-  ? Попросіть користувача ввести число.
-  ? Виведіть результат у консоль.
-  ? Приведіть рядок до числа.
+  ? Ask the user to enter a number.
+  ? Print the result to the console.
+  ? Convert a string to a number.
 */
 
-// const userInput = Number(prompt('Enter some number'));
-
-// console.log(userInput);
-
-//? Дізнайтесь числове значення ширини елемента.
+//? Get the numeric value of the element width.
 // const elementWidth = '50px';
-// const numericalWidth = Number.parseInt(elementWidth);
 
-// console.log('elementWidth:', elementWidth);
-// console.log('numericalWidth:', numericalWidth);
-
-//? Дізнайтесь числове значення висоти елемента.
+//? Get the numeric value of the element's height.
 // const elementHeight = '200.74px';
-// const numericalHeight = Number.parseFloat(elementHeight);
-
-// console.log('elementHeight: ', elementHeight);
-// console.log('numericalHeight: ', numericalHeight);
 
 /*
- ? Напиши скрипт, який виводить у консоль заокруглені вгору/вниз значення
- ? змінної value. Використовуй методи Math.floor(), Math.ceil()
- ? та Math.round(). Перевір що буде в консолі при значеннях 27.3 та 27.9.
+ ? Write a script that displays the rounded up/down values of the
+ ? of the value variable. Use the Math.floor(), Math.ceil()
+ ? and Math.round() methods. Check what will be in the console with values 27.3 and 27.9.
 */
 
 // let value = 27.4;
 
-// value = Math.round(value);
-
-// console.log(value);
-
-
 /*
-? Напишіть функцію getRectArea(sideA, sideB) для обчислення площі прямокутника.
-? Сторони прямокутника будуть переденні до параметрів sideA та sideB.
+? Write the getRectArea(sideA, sideB) function to calculate the area of a rectangle.
+? The sides of the rectangle will be passed to the sideA and sideB parameters.
 */
 
-// function getRectArea(sideA, sideB) {
-//   return sideA * sideB;
-// }
+// function getRectArea(sideA, sideB) {}
 
 // console.log(getRectArea(8, 11)); // 88
 // console.log(getRectArea(18, 11)); // 198
 // console.log(getRectArea(8, 21)); // 168
 
 /*
- ? Напиши функцію calcBMI(weight, height) яка розраховує та повертає індекс
- ? маси тіла людини. Для цього необхідно розділити вагу на
- ? квадрат висоти.
+ ? Write a calcBMI(weight, height) function that calculates and returns the index
+ ? of a person's body mass. To do this, divide the weight by the
+ ? the square of the height.
  ?
- ? Вага та висота будуть спеціально передані як рядки.
+ ? The weight and height will be passed as strings on purpose.
  ?
- ? Індекс маси тіла необхідно округлити до однієї цифри після коми.
+ ? The body mass index must be rounded to one decimal place.
  */
 
 // function calcBMI(weight, height) {}
