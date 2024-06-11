@@ -8,9 +8,9 @@ const grapes = 135;
 totalFruits = apples + grapes;
 differenceFruits = grapes - apples;
 
-console.log('Total number of fruits:' totalFruits);
+console.log('Total number of fruits:', totalFruits);
 
-console.log('Difference between fruits:' differenceFruits);
+console.log('Difference between fruits:', differenceFruits);
 
 /*
  ? Replace the override expression with a combination operator
@@ -24,6 +24,12 @@ console.log('Difference between fruits:' differenceFruits);
 // console.log(students);
 
 //* With the combined operator
+
+let students = 100;
+
+students += 50;
+
+console.log(students);
 
 //? Combine two lines into one and output to the console.
 
