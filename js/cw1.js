@@ -2,8 +2,15 @@
  Print the total number of apples and grapes. The difference between apples and grapes.
  */
 
-// const apples = 47;
-// const grapes = 135;
+const apples = 47;
+const grapes = 135;
+
+totalFruits = apples + grapes;
+differenceFruits = grapes - apples;
+
+console.log('Total number of fruits:' totalFruits);
+
+console.log('Difference between fruits:' differenceFruits);
 
 /*
  ? Replace the override expression with a combination operator
