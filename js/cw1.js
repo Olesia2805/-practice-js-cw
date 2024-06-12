@@ -33,8 +33,10 @@ console.log(students);
 
 //? Combine two lines into one and output to the console.
 
-// const firstName = 'Chelsy';
-// const lastName = 'Emerald';
+const firstName = 'Chelsy';
+const lastName = 'Emerald';
+console.log(firstName + " " + lastName);
+console.log(`${firstName} ${lastName}`);
 
 //? Insert the value of the quantity variable into the orderMsg string using string templates.
 
