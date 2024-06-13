@@ -5,8 +5,8 @@
 const apples = 47;
 const grapes = 135;
 
-totalFruits = apples + grapes;
-differenceFruits = grapes - apples;
+const totalFruits = apples + grapes;
+const differenceFruits = grapes - apples;
 
 console.log('Total number of fruits:', totalFruits);
 
@@ -40,7 +40,11 @@ console.log(`${firstName} ${lastName}`);
 
 //? Insert the value of the quantity variable into the orderMsg string using string templates.
 
-// const quantity = '15';
+const quantity = '15';
+
+const orderMsg = `${quantity}`
+
+console.log(orderMsg)
 
 /*
   ? Request the user's first and last name and display a message in the console:
