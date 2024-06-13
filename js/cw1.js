@@ -1,5 +1,6 @@
 /*
- Print the total number of apples and grapes. The difference between apples and grapes.
+ TODO:
+ ? Print the total number of apples and grapes. The difference between apples and grapes.
  */
 
 const apples = 47;
@@ -13,6 +14,7 @@ console.log('Total number of fruits:', totalFruits);
 console.log('Difference between fruits:', differenceFruits);
 
 /*
+ TODO:
  ? Replace the override expression with a combination operator
  */
 
@@ -31,43 +33,57 @@ students += 50;
 
 console.log(students);
 
-//? Combine two lines into one and output to the console.
+// TODO:
+// ? Combine two lines into one and output to the console.
 
 const firstName = 'Chelsy';
 const lastName = 'Emerald';
-console.log(firstName + " " + lastName);
+console.log(firstName + ' ' + lastName);
 console.log(`${firstName} ${lastName}`);
 
+//TODO:
 //? Insert the value of the quantity variable into the orderMsg string using string templates.
 
 const quantity = '15';
 
-const orderMsg = `${quantity}`
+const orderMsg = `${quantity}`;
 
-console.log(orderMsg)
+console.log(orderMsg);
 
 /*
-  ? Request the user's first and last name and display a message in the console:
+  TODO:
+  ? Request the user's first and last name and display a message in the console: 
   ? Hello <name> <surname>, you are logged in.
 */
 
-//? Find out the length of the message string. Print the first and last characters of the message string.
+const nameUser = prompt('What is your name?');
+
+const surnameUser = prompt('What is your surname?');
+
+console.log(`Hello ${nameUser} ${surnameUser}, you are logged in.`);
+
+//TODO:
+//? Find out the length of the message string.Print the first and last characters of the message string.
 
 // let message = 'This string is 28 chars long';
 
 /* 
+  TODO:
   ? Ask the user to enter a number.
   ? Print the result to the console.
   ? Convert a string to a number.
 */
 
+//TODO:
 //? Get the numeric value of the element width.
 // const elementWidth = '50px';
 
+//TODO:
 //? Get the numeric value of the element's height.
 // const elementHeight = '200.74px';
 
 /*
+ TODO:
  ? Write a script that displays the rounded up/down values of the
  ? of the value variable. Use the Math.floor(), Math.ceil()
  ? and Math.round() methods. Check what will be in the console with values 27.3 and 27.9.
@@ -76,8 +92,9 @@ console.log(orderMsg)
 // let value = 27.4;
 
 /*
-? Write the getRectArea(sideA, sideB) function to calculate the area of a rectangle.
-? The sides of the rectangle will be passed to the sideA and sideB parameters.
+ TODO:
+ ? Write the getRectArea(sideA, sideB) function to calculate the area of a rectangle.
+ ? The sides of the rectangle will be passed to the sideA and sideB parameters.
 */
 
 // function getRectArea(sideA, sideB) {}
@@ -87,6 +104,7 @@ console.log(orderMsg)
 // console.log(getRectArea(8, 21)); // 168
 
 /*
+ TODO:
  ? Write a calcBMI(weight, height) function that calculates and returns the index
  ? of a person's body mass. To do this, divide the weight by the
  ? the square of the height.
