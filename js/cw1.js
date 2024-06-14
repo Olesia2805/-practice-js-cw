@@ -65,7 +65,11 @@ console.log(`Hello ${nameUser} ${surnameUser}, you are logged in.`);
 //TODO:
 //? Find out the length of the message string.Print the first and last characters of the message string.
 
-// let message = 'This string is 28 chars long';
+let message = 'This string is 28 chars long';
+
+console.log(message.length);
+console.log(message[0]);
+console.log(message[message.length - 1]);
 
 /* 
   TODO:
