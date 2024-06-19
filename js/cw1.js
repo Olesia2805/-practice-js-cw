@@ -80,7 +80,8 @@ console.log(message[message.length - 1]);
 
 //TODO:
 //? Get the numeric value of the element width.
-// const elementWidth = '50px';
+const elementWidth = '50px';
+console.log(parseInt(elementWidth));
 
 //TODO:
 //? Get the numeric value of the element's height.
