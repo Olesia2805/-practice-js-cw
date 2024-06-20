@@ -95,7 +95,15 @@ console.log(parseFloat(elementHeight));
  ? and Math.round() methods. Check what will be in the console with values 27.3 and 27.9.
 */
 
-// let value = 27.4;
+let value1 = 27.4;
+console.log(Math.floor(value1));
+console.log(Math.ceil(value1));
+console.log(Math.round(value1));
+
+let value2 = 27.8;
+console.log(Math.floor(value2));
+console.log(Math.ceil(value2));
+console.log(Math.round(value2));
 
 /*
  TODO:
