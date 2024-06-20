@@ -111,11 +111,13 @@ console.log(Math.round(value2));
  ? The sides of the rectangle will be passed to the sideA and sideB parameters.
 */
 
-// function getRectArea(sideA, sideB) {}
+function getRectArea(sideA, sideB) {
+  return sideA * sideB;
+}
 
-// console.log(getRectArea(8, 11)); // 88
-// console.log(getRectArea(18, 11)); // 198
-// console.log(getRectArea(8, 21)); // 168
+console.log(getRectArea(8, 11)); // 88
+console.log(getRectArea(18, 11)); // 198
+console.log(getRectArea(8, 21)); // 168
 
 /*
  TODO:
