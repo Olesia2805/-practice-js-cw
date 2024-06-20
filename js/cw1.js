@@ -85,7 +85,8 @@ console.log(parseInt(elementWidth));
 
 //TODO:
 //? Get the numeric value of the element's height.
-// const elementHeight = '200.74px';
+const elementHeight = '200.74px';
+console.log(parseFloat(elementHeight));
 
 /*
  TODO:
