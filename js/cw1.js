@@ -130,8 +130,8 @@ console.log(getRectArea(8, 21)); // 168
  ? The body mass index must be rounded to one decimal place.
  */
 
-// function calcBMI(weight, height) {}
+ function calcBMI(weight, height) { return (parseFloat(weight) / parseFloat(height)**2).toFixed(2);}
 
-// const bmi = calcBMI('88.3', '1.75');
-
-// console.log(bmi); // 28.8
+ const bmi = calcBMI('88.3', '1.75');
+ 
+ console.log(bmi); // 28.83
