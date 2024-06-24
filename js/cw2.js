@@ -1,82 +1,82 @@
 /*
-? Запросіть у користувача число, якщо число дорівнює 10,
-? то виведіть 'Вірно', інакше виведіть 'Невірно'.
+? Prompt the user for a number if the number is 10,
+? then print 'True' otherwise print 'False'.
 */
 
 /*
-? Перевірте чи є гроші на балансі, якщо є то виведіть до консолі 'Positive', інакше 'Negative'.
+? Check whether there is money on the balance, if so, output 'Positive' to the console, otherwise 'Negative'.
 */
 
 /*
-? Напиши скрипт для відображення часу дедлайну здачі проекту. Використовуй if...else.
+? Write a script to display the time of the project submission deadline. Use if...else.
 ?
-? Якщо до дедлайну 0 днів - виведи рядок "Today"
-? Якщо до дедлайну 1 день - виведи рядок "Tomorrow"
-? Якщо до дедлайну 2 дні - виведи рядок "Overmorrow"
-? Якщо до дедлайну 3+ днів - виведи рядок "Date in the future"
-? В інших випадках - виведи рядок "Incorrect value of days"
+? If there are 0 days to the deadline - display the line "Today"
+? If the deadline is 1 day away - display the line "Tomorrow"
+? If the deadline is 2 days away - display the line "Overmorrow"
+? If the deadline is 3+ days - display the line "Date in the future"
+? In other cases, display the line "Incorrect value of days"
  */
 
 /*
-? Перепишіть конструкцію if з використанням тернарного оператора.
+? Rewrite the if statement using the ternary operator.
 */
 
 // const numA = 3;
 // const numB = 2;
 
 // if (numA + numB < 4) {
-//   result = 'Мало';
+// result = 'Little';
 // } else {
-//   result = 'Багато';
+// result = 'Many';
 // }
 
 // console.log(result);
 
 /*
-?  Перепишіть if..else за допомогою декількох тернарних операторів.
+? Rewrite if..else using multiple ternary statements.
 */
 
-// const login = 'Співробітник';
+// const login = 'Employee';
 
-// if (login === 'Співробітник') {
-//   message = 'Привіт';
-// } else if (login === 'Директор') {
-//   message = 'Вітаю';
+// if (login === 'Employee') {
+// message = 'Hello';
+// } else if (login === 'Director') {
+// message = 'Congratulations';
 // } else if (login === '') {
-//   message = 'Немає логіну';
+// message = 'No login';
 // } else {
-//   message = '';
+// message = '';
 // }
 
 // console.log(message);
 
 /*
-? Напиши скрипт вибору опції доставки товара.
-? Опція зберігається в змінній option: 1 - самовивіз, 2 - кур'єр, 3 - пошта
+? Write a script for selecting the product delivery option.
+? The option is stored in the option variable: 1 - self-delivery, 2 - courier, 3 - mail
 ?
-? В змінну message потрібно записати повідомлення в залежності від опції.
-? - 'Ви можете забрати товар завтра з 12:00 в нашому офісі'
-? - 'Кур'єр доставить замовлення завтра з 9:00 до 18:00'
-? - 'Посилку буде відправлено сьогодні'
-? - 'Вам передзвонить менеджер'
+? Depending on the option, you need to write a message in the message variable.
+? - "You can pick up the goods tomorrow from 12:00 in our office"
+? - "The courier will deliver the order tomorrow from 9:00 a.m. to 6:00 p.m."
+? - "The parcel will be sent today"
+? - "The manager will call you back"
  */
 
 /*
-? Нормалізація рядка
+? String normalization
 ?
-? Напишіть код, який запитуватиме:
-? 'Яка «офіційна» назва JavaScript?'
-? Якщо користувач вводить ECMAScript,
-? то показати: «Вірно!», інакше – відобразити: «Не знаєте? ECMAScript!»
+? Write code that will ask:
+? 'What is the "official" name of JavaScript?'
+? If the user types ECMAScript,
+? then show: "True!", otherwise - display: "Don't know? ECMAScript!”
 */
 
 /*
-? Форматування посилання (endsWith)
+? Link formatting (endsWith)
 ?
-? Напиши скрипт який перевіряє чи закінчується значення
-?  змінної link символом /. Якщо ні, додай до кінця
-?  значення link цей символ.
-? Використовуй конструкцію if...else.
+? Write a script that checks whether the value ends
+? variable link with the symbol /. If not, add to the end
+? link value this symbol.
+? Use the if...else statement.
 */
 
 // let link = 'https://my-site.com/about';
@@ -84,12 +84,12 @@
 // console.log(link);
 
 /*
-? Форматування посилання (includes та логічне «І»)
-? Напиши скрипт який перевіряє чи закінчується значення
-? змінної link символом /. Якщо ні, додай до кінця
-? значення link цей символ, але тільки в тому випадку,
-? якщо в link є підрядок "my-site".
-? Використовуй конструкцію if...else або тернарний оператор.
+? Link formatting (includes and logical "AND")
+? Write a script that checks whether the value ends
+? variable link with the symbol /. If not, add to the end
+? link value is this character, but only if
+? if there is a substring "my-site" in the link.
+? Use the if...else construct or the ternary operator.
 */
 
 // let link = 'https://somesite.com/about';
@@ -98,64 +98,64 @@
 // console.log(link);
 
 /*
-? Виведіть числа від 1 до 50 використовуючи цикл while
+? Print numbers from 1 to 50 using a while loop
 */
 
 /*
-? Напишіть цикл, який пропонує prompt ввести число більше за 100.
-? Якщо відвідувач введе інше число – попросити ввести ще раз, і так далі.
+? Write a loop that prompts you to enter a number greater than 100.
+? If the visitor enters another number - ask to enter again, and so on.
 */
 
 /*
-? За допомогою циклу for виведіть парні числа від 2 до 10.
+? Print even numbers from 2 to 10 using a for loop.
 */
 
 /*
-? Напиши цикл for, який виводить у консоль браузера
-? числа за зростанням від a до b, але тільки якщо число кратне 5.
+? Write a for loop that outputs to the browser console
+? numbers in ascending order from a to b, but only if the number is a multiple of 5.
 */
 
 // const a = 20;
 // const b = 100;
 
 /*
-? У змінній minutes лежить число від 0 до 59.
-? Визначте, в яку чверть години потрапляє це число (у першу, другу, третю чи четверту).
-? [0 до 15) - перша чверть години
-? [15 до 30) - друга чверть години
-? [30 до 45) - третя чверть години
-? [45 до 60) - четверта чверть години
+? The minutes variable contains a number from 0 to 59.
+? Determine in which quarter of an hour this number falls (in the first, second, third or fourth).
+? [0 to 15) - the first quarter of an hour
+? [15 to 30) - the second quarter of an hour
+? [30 to 45) - three quarters of an hour
+? [45 to 60) - quarter of an hour
 */
 
 // const minutes = 15;
 
 /*
-?  Перепишіть код за допомогою однієї конструкції switch:
+? Rewrite the code using a single switch construct:
 */
 
-// const number = Number(prompt('Введіть число між 0 та 3'));
+// const number = Number(prompt('Enter a number between 0 and 3'));
 
 // if (number === 0) {
-//   console.log('Ви ввели число 0');
+// console.log('You entered the number 0');
 // } else if (number === 1) {
-//   console.log('Ви ввели число 1');
+// console.log('You entered the number 1');
 // } else if (number === 2 || number === 3) {
-//   console.log('Ви ввели число 2, а може й 3');
+// console.log('You entered the number 2, maybe 3');
 // } else {
-//   console.log('Ви ввели якесь інше число');
+// console.log('You entered some other number');
 // }
 
 /*
-? Напиши скрипт, який перевіряє можливість відкрити чат з користувачем.
-? Для цього, користувач має бути:
-? - другом
-? - онлайн
-? - без режима не турбувати
+? Write a script that checks the possibility to open a chat with the user.
+? To do this, the user must be:
+? - a friend
+? - online
+? - no do not disturb mode
  */
 
 /*
-? Напишіть програму, яка виводить через console.log усі числа від 1 до 100, з трьома винятками.
-? Для чисел, що націло діляться на 3, вона повинна виводити 'Fizz',
-? а для чисел, що діляться на 5 – 'Buzz'.
-? Для чисел які кратні 3 та 5 = 'FizzBuzz'
+? Write a program that outputs to console.log all numbers from 1 to 100, with three exceptions.
+? For integers divisible by 3, it should output 'Fizz',
+? and for numbers divisible by 5 - 'Buzz'.
+? For numbers that are multiples of 3 and 5 = 'FizzBuzz'
 */
