@@ -21,8 +21,8 @@
 ? Rewrite the if statement using the ternary operator.
 */
 
-// const numA = 3;
-// const numB = 2;
+const numA = 3;
+const numB = 2;
 
 // if (numA + numB < 4) {
 // result = 'Little';
@@ -30,7 +30,11 @@
 // result = 'Many';
 // }
 
-// console.log(result);
+const result1 = numA + numB < 4 ? 'Little' : 'Many';
+const result2 = numA + numB < 6 ? 'Little' : 'Many';
+
+console.log(result1);
+console.log(result2);
 
 /*
 ? Rewrite if..else using multiple ternary statements.
