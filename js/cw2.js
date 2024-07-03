@@ -7,6 +7,10 @@
 ? Check whether there is money on the balance, if so, output 'Positive' to the console, otherwise 'Negative'.
 */
 
+const moneyBalance = prompt("Please enter your balance", "0");
+
+console.log(moneyBalance > 0 ? 'Positive' : 'Negative');
+
 /*
 ? Write a script to display the time of the project submission deadline. Use if...else.
 ?
