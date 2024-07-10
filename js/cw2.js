@@ -3,6 +3,9 @@
 ? then print 'True' otherwise print 'False'.
 */
 
+let number = Number(prompt("Please enter number:"));
+console.log(number === 10 ? 'True' : 'False');
+
 /*
 ? Check whether there is money on the balance, if so, output 'Positive' to the console, otherwise 'Negative'.
 */
