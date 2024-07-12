@@ -81,8 +81,8 @@ console.log(result2);
 ? then show: "True!", otherwise - display: "Don't know? ECMAScript!”
 */
 
-let strUser = prompt("What is the "official" name of JavaScript?").trim().toLowerCase();
-alert(srtUser === "ecmascript" ? "True" : "Don't know? ECMAScript!");
+let strUser = prompt("What is the official name of JavaScript?").trim().toLowerCase();
+alert(strUser === "ecmascript" ? 'True' : "Don't know? ECMAScript!");
 
 /*
 ? Link formatting (endsWith)
